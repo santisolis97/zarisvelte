@@ -47,33 +47,57 @@
     padding: 1em 0.5em;
     display: block;
   }
+
+  .logo1 {
+    max-width: 80px;
+  }
+
+  .logo3 {
+    max-width: 200px;
+  }
 </style>
 
-<nav>
-  <ul>
-    <li>
-      <img src={logo} alt="" />
-    </li>
-    <li>
-      <a aria-current={segment === undefined ? 'page' : undefined} href=".">
-        home
-      </a>
-    </li>
-    <li>
-      <a aria-current={segment === 'about' ? 'page' : undefined} href="about">
-        about
-      </a>
-    </li>
-
-    <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-    <li>
-      <a
-        rel="prefetch"
-        aria-current={segment === 'blog' ? 'page' : undefined}
-        href="blog">
-        blog
-      </a>
-    </li>
-  </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a
+    aria-current={segment === undefined ? 'page' : undefined}
+    class="navbar-brand"
+    href="#">
+    <img class="logo1" src="/assets/Images/Logos/logo.png" alt="" />
+    <img class="logo3" src="/assets/Images/Logos/logo3.png" alt="" />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" />
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link disabled"
+          href="#"
+          tabindex="-1"
+          aria-disabled="true">
+          Disabled
+        </a>
+      </li>
+    </ul>
+  </div>
 </nav>
