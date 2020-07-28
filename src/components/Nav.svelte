@@ -15,7 +15,7 @@
     font-family: "Comic Neue";
     font-size: 25px;
     font-weight: 800 !important;
-    border-bottom: 1px solid rgba(255, 62, 0, 0.1);
+    /* border-bottom: 1px solid rgba(255, 62, 0, 0.1); */
     padding: 0 1em;
   }
 
@@ -76,7 +76,7 @@
 </style>
 
 <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/">
+  <a rel="prefetch" class="navbar-brand" href="/">
     <img class="logo1" src="/assets/Images/Logos/logo.png" alt="" />
     <img class="logo3" src="/assets/Images/Logos/logo3.png" alt="" />
   </a>
@@ -94,6 +94,7 @@
     <ul class="navbar-nav">
       <li class="nav-item active">
         <a
+          rel="prefetch"
           aria-current={segment === undefined ? 'page' : undefined}
           class="nav-link"
           href="/">
@@ -103,6 +104,7 @@
       </li>
       <li class="nav-item">
         <a
+          rel="prefetch"
           aria-current={segment === 'about' ? 'page' : undefined}
           class="nav-link"
           href="about">
@@ -111,6 +113,7 @@
       </li>
       <li class="nav-item">
         <a
+          rel="prefetch"
           aria-current={segment === 'portabebes' ? 'page' : undefined}
           class="nav-link"
           href="portabebes">
@@ -119,6 +122,7 @@
       </li>
       <li class="nav-item">
         <a
+          rel="prefetch"
           aria-current={segment === 'productos' ? 'page' : undefined}
           class="nav-link"
           href="productos">

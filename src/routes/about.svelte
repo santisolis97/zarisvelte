@@ -3,8 +3,7 @@
 </script>
 
 <style>
-  .containerfluid {
-  }
+
 </style>
 
 <svelte:head>

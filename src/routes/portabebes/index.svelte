@@ -1,8 +1,19 @@
+<script context="module">
+  export async function preload() {
+    let productos = {};
+    const response = require("../../productos.json").portabebes;
+    productos = await response;
+    console.log(productos);
+    return { productos };
+  }
+</script>
+
 <script>
-  import Productos from "../components/Productos";
+  import PortabebeCard from "../../components/portabebeCard.svelte";
   import { onMount } from "svelte";
   import { identity } from "svelte/internal";
-  let productos = require("../productos.json").portabebes;
+  // let productos = require("../../productos.json").portabebes;
+  export let productos;
 </script>
 
 <style>
@@ -28,10 +39,10 @@
     <div class="row">
       {#each productos as producto (producto.id)}
         <li class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-          <Productos {...producto} />
+
+          <PortabebeCard {...producto} />
         </li>
       {/each}
     </div>
   </ul>
 </div>
-<!-- <Productos portabebes={productosJSON} /> -->
