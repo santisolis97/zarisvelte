@@ -6,6 +6,8 @@
     // console.log(producto);
     return { producto };
   }
+
+  //kidding
 </script>
 
 <script>
