@@ -22,6 +22,9 @@
   }
 </style>
 
+<svelte:head>
+  <title>Zarigueya | Gestando Conciencia</title>
+</svelte:head>
 <Nav {segment} />
 
 <main>
