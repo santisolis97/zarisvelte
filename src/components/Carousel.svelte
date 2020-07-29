@@ -60,6 +60,7 @@
 
 <div
   id="myCarousel{id}"
+  data-touch="true"
   class="carousel slide"
   class:carousel-todo={todo === '1'}
   class:carousel-solo={todo === '2'}
