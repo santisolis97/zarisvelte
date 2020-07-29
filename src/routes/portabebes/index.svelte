@@ -3,7 +3,6 @@
     let portabebes = {};
     const response = require("../../productos.json").portabebes;
     portabebes = await response;
-    console.log(portabebes);
     return { portabebes };
   }
 </script>

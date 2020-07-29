@@ -12,7 +12,7 @@
 
 <style>
   .card {
-    width: 500px;
+    width: 400px;
     border-radius: 20px;
   }
   span {
@@ -41,12 +41,12 @@
       <div class="row d-flex pt-1">
         <div class="badges">
           <span class="badge badge-danger m-1">{precio}</span>
-          <span class="badge badge-danger m-1">Marca:{marca}</span>
+          <span class="badge badge-danger m-1">{marca}</span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <a href="/portabebes/{id}">
+      <a href="/productos/{id}">
 
         <h5 class="card-title">{nombre}</h5>
       </a>

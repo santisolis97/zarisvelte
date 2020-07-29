@@ -16,7 +16,6 @@
   }
   .carousel-inner-todo {
     height: 600px;
-    /* width: 300px; */
     border-radius: 20px 20px 0 0;
   }
   .carousel-todo {
@@ -34,7 +33,6 @@
   }
   .carousel-inner-solo {
     height: 600px;
-    /* width: 300px; */
     border-radius: 20px 20px 20px 20px;
   }
   .carousel-solo {
@@ -47,16 +45,15 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 800px;
+    height: 600px;
     border-radius: 20px 20px 0 0;
   }
   .carousel-inner-prod {
-    height: 800px;
-    /* width: 300px; */
+    height: 600px;
     border-radius: 20px 20px 0 0;
   }
   .carousel-prod {
-    width: 500px;
+    width: 400px;
     border-radius: 20px 20px 0 0;
   }
 </style>

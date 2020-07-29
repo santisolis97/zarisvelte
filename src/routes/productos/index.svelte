@@ -38,7 +38,7 @@
   <ul>
     <div class="row">
       {#each productos as producto (producto.id)}
-        <li class="col-12 d-flex justify-content-center">
+        <li class="col-12 col-lg-6 d-flex justify-content-center">
 
           <ProductoCard {...producto} />
         </li>

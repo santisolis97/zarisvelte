@@ -3,7 +3,6 @@
     let producto = {};
     const response = require("../../productos.json").portabebes[`${params.id}`];
     producto = await response;
-    // console.log(producto);
     return { producto };
   }
 
