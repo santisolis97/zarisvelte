@@ -11,9 +11,30 @@
 </script>
 
 <style>
+  .font {
+    font-family: "Comic Neue";
+  }
+  @media (min-width: 768px) {
+    .card {
+      width: 70vw;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      width: 90vw;
+    }
+  }
+  .card-body {
+    padding-top: 10px;
+  }
+  .badgecontainer {
+    padding-top: 5px;
+  }
+
   .card {
-    width: 400px;
-    border-radius: 20px;
+    border-radius: 23px;
+    border: 3px solid rgba(190, 86, 89, 0.8);
   }
   span {
     margin: 2px !important;
@@ -26,33 +47,31 @@
     color: inherit;
     cursor: pointer;
   }
-  h5 {
+  h4 {
     color: rgb(190, 86, 89);
   }
-  h5:hover {
+  h4:hover {
     color: #ff7a6d;
   }
 </style>
 
-<div>
+<div class="font">
   <div class="card">
     <Carousel {fotos} {id} {todo} />
     <div class="container badgecontainer">
-      <div class="row d-flex pt-1">
-        <div class="badges">
-          <span class="badge badge-danger m-1">{precio}</span>
-          <span class="badge badge-danger m-1">{marca}</span>
-        </div>
+      <div class="badges">
+        <span class="badge badge-danger m-1">{precio}</span>
+        <span class="badge badge-danger m-1">{marca}</span>
       </div>
     </div>
     <div class="card-body">
       <a href="/productos/{id}">
 
-        <h5 class="card-title">
+        <h4 class="card-title">
           {nombre}
           <span />
           <i class="fas fa-external-link-alt" />
-        </h5>
+        </h4>
       </a>
       <p class="card-text">{desc}</p>
     </div>

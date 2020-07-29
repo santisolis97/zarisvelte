@@ -21,9 +21,11 @@
 
   ul {
     list-style: none;
+    padding: 0;
   }
   li {
     margin: 30px 0px 0 0;
+    padding: 0;
   }
   .title {
     font-family: "Comic Neue";
@@ -33,13 +35,13 @@
 </style>
 
 <br />
-<h2 class="d-flex justify-content-center title">PRODUCTOS RESPETUOSOS</h2>
-<div class="container ">
+<h2 class="d-flex justify-content-center title">PRODUCTOS</h2>
+<h2 class="d-flex justify-content-center title">RESPETUOSOS</h2>
+<div class="container-fluid ">
   <ul>
     <div class="row">
       {#each productos as producto (producto.id)}
-        <li class="col-12 col-lg-6 d-flex justify-content-center">
-
+        <li class="col-12 d-flex justify-content-center">
           <ProductoCard {...producto} />
         </li>
       {/each}

@@ -40,7 +40,7 @@
 <footer class="page-footer font-small container-fluid teal pt-4 bg-light">
 
   <!-- Footer Text -->
-  <div class="container-fluid text-center text-md-left">
+  <div class="container text-center text-md-left">
 
     <!-- Grid row -->
     <div class="row">

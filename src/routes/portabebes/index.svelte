@@ -19,9 +19,11 @@
 
   ul {
     list-style: none;
+    padding: 0;
   }
   li {
     margin: 30px 0px 0 0;
+    padding: 0;
   }
   .title {
     font-family: "Comic Neue";
@@ -32,7 +34,7 @@
 
 <br />
 <h2 class="d-flex justify-content-center title">PORTABEBES</h2>
-<div class="container ">
+<div class="container-fluid ">
   <ul>
     <div class="row">
       {#each portabebes as portabebe (portabebe.id)}

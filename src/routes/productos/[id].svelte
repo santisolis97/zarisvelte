@@ -16,9 +16,12 @@
 
 <style>
   /* @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"); */
-
+  .carousel {
+    border: 4px solid rgba(190, 86, 89, 0.5);
+    border-radius: 24px;
+  }
   .item {
-    padding: 50px;
+    padding: 30px 0 0 0;
   }
   .info {
     font-family: "Comic Neue";
@@ -28,6 +31,10 @@
   h3 {
     font-weight: bold !important;
   }
+  h5 {
+    margin: 30px 0 0 40px;
+    font-family: "Comic Neue";
+  }
   a {
     text-decoration: inherit;
     color: inherit;
@@ -35,12 +42,21 @@
   }
 </style>
 
+<div class="container-fluid">
+  <h5>
+    <a rel="prefetch" href="/productos">
+      <i class="far fa-arrow-alt-circle-left" />
+      Volver
+    </a>
+  </h5>
+</div>
 <div class="container">
   <div class="item">
-
     <div class="row">
       <div class="col-12 col-lg-7 column">
-        <Carousel fotos={producto.fotos} id={producto.id} todo="2" />
+        <div class="carousel">
+          <Carousel fotos={producto.fotos} id={producto.id} todo="2" />
+        </div>
       </div>
       <div class="col-12 offset-lg-1 offset-xl-0 col-lg-4 col-xl-5 column info">
         <h1>{producto.nombre}</h1>

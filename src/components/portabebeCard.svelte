@@ -13,10 +13,29 @@
 </script>
 
 <style>
-  .card {
-    width: 300px;
-    border-radius: 20px;
+  .font {
+    font-family: "Comic Neue";
   }
+  @media (min-width: 991px) {
+    .card {
+      width: 25vw;
+    }
+  }
+  @media (max-width: 991px) and (min-width: 768px) {
+    .card {
+      width: 40vw;
+    }
+  }
+  @media (max-width: 768px) {
+    .card {
+      width: 90vw;
+    }
+  }
+  .card {
+    border-radius: 23px;
+    border: 3px solid rgba(190, 86, 89, 0.5);
+  }
+
   span {
     margin: 2px !important;
   }
@@ -28,34 +47,38 @@
     color: inherit;
     cursor: pointer;
   }
-  h5 {
+  .card-body {
+    padding-top: 10px;
+  }
+  .badgecontainer {
+    padding-top: 5px;
+  }
+  h4 {
     color: rgb(190, 86, 89);
   }
-  h5:hover {
+  h4:hover {
     color: #ff7a6d;
   }
 </style>
 
-<div>
+<div class="font">
   <div class="card">
     <Carousel {fotos} {id} {todo} />
     <div class="container badgecontainer">
-      <div class="row d-flex pt-1">
-        <div class="badges">
-          <span class="badge badge-danger m-1">{precio}</span>
-          <span class="badge badge-danger m-1">Marca:{marca}</span>
-        </div>
+      <div class="badges">
+        <span class="badge badge-danger m-1">{precio}</span>
+        <span class="badge badge-danger m-1">Marca:{marca}</span>
       </div>
     </div>
     <div class="card-body">
-      <a href="/portabebes/{id}">
+      <a rel="prefetch" href="/portabebes/{id}">
 
-        <h5 class="card-title">
+        <h4 class="card-title">
           {nombre}
           <span />
 
           <i class="fas fa-external-link-alt" />
-        </h5>
+        </h4>
       </a>
       <h6 class="card-subtitle">{subt}</h6>
       <p class="card-text">{desc}</p>

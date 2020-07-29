@@ -19,7 +19,7 @@
     border-radius: 20px 20px 0 0;
   }
   .carousel-todo {
-    width: 300px;
+    width: 100%;
     border-radius: 20px 20px 0 0;
   }
   .imagen-solo {
@@ -36,7 +36,7 @@
     border-radius: 20px 20px 20px 20px;
   }
   .carousel-solo {
-    width: 500px;
+    width: 100%;
     border-radius: 20px 20px 20px 20px;
   }
   .imagen-prod {
@@ -45,15 +45,15 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 600px;
+    height: 700px;
     border-radius: 20px 20px 0 0;
   }
   .carousel-inner-prod {
-    height: 600px;
+    height: 700px;
     border-radius: 20px 20px 0 0;
   }
   .carousel-prod {
-    width: 400px;
+    width: 100%;
     border-radius: 20px 20px 0 0;
   }
 </style>
