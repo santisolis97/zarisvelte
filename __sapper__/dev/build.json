@@ -2,14 +2,14 @@
   "bundler": "webpack",
   "shimport": null,
   "assets": {
-    "about": "0865f315820210902cb3/about.about.js",
-    "index": "0865f315820210902cb3/index.index.js",
-    "main": "0865f315820210902cb3/main.js",
-    "portabebes": "0865f315820210902cb3/portabebes.portabebes.js",
-    "portabebes_$id": "0865f315820210902cb3/portabebes_$id.portabebes_$id.js",
-    "portabebes~portabebes_$id~productos~productos_$id": "0865f315820210902cb3/portabebes~portabebes_$id~productos~productos_$id.portabebes~portabebes_$id~productos~productos_$id.js",
-    "productos": "0865f315820210902cb3/productos.productos.js",
-    "productos_$id": "0865f315820210902cb3/productos_$id.productos_$id.js"
+    "about": "834a2a227814c0f219f9/about.about.js",
+    "index": "834a2a227814c0f219f9/index.index.js",
+    "main": "834a2a227814c0f219f9/main.js",
+    "portabebes": "834a2a227814c0f219f9/portabebes.portabebes.js",
+    "portabebes_$id": "834a2a227814c0f219f9/portabebes_$id.portabebes_$id.js",
+    "portabebes~portabebes_$id~productos~productos_$id": "834a2a227814c0f219f9/portabebes~portabebes_$id~productos~productos_$id.portabebes~portabebes_$id~productos~productos_$id.js",
+    "productos": "834a2a227814c0f219f9/productos.productos.js",
+    "productos_$id": "834a2a227814c0f219f9/productos_$id.productos_$id.js"
   },
   "css": {
     "chunks": {

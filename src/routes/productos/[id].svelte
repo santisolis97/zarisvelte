@@ -39,10 +39,10 @@
   <div class="item">
 
     <div class="row">
-      <div class="col-7 column">
+      <div class="col-12 col-lg-7 column">
         <Carousel fotos={producto.fotos} id={producto.id} todo="2" />
       </div>
-      <div class="col-4 offset-1 column info">
+      <div class="col-12 offset-lg-1 offset-xl-0 col-lg-4 col-xl-5 column info">
         <h1>{producto.nombre}</h1>
         <span class="badge badge-danger m-1">{producto.precio}</span>
         <h3>Marca: {producto.marca}</h3>

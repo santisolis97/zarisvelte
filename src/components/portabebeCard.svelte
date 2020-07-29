@@ -50,7 +50,12 @@
     <div class="card-body">
       <a href="/portabebes/{id}">
 
-        <h5 class="card-title">{nombre}</h5>
+        <h5 class="card-title">
+          {nombre}
+          <span />
+
+          <i class="fas fa-external-link-alt" />
+        </h5>
       </a>
       <h6 class="card-subtitle">{subt}</h6>
       <p class="card-text">{desc}</p>
