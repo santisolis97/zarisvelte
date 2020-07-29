@@ -41,7 +41,7 @@
 
     <div class="row">
       <div class="col-7 column">
-        <Carousel fotos={producto.fotos} todo={false} />
+        <Carousel fotos={producto.fotos} id={producto.id} todo="2" />
       </div>
       <div class="col-4 offset-1 column info">
         <h1>{producto.nombre}</h1>

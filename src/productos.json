@@ -137,5 +137,59 @@
         "assets/Images/Productos/portabebes/mochilampb/5.jpg"
       ]
     }
+  ],
+  "productos": [
+    {
+      "id": "0",
+      "nombre": "Juegos artesanales: Cubos",
+      "precio": "$1500",
+      "marca": "Linea: Pickler/Montessori",
+      "desc": "Medidas: 40cm x 40cm",
+      "fotos": [
+        "assets/Images/Productos/productos/cubo/1.jpg",
+        "assets/Images/Productos/productos/cubo/2.jpg",
+        "assets/Images/Productos/productos/cubo/3.jpg"
+      ]
+    },
+    {
+      "id": "1",
+      "nombre": "Juegos artesanales: Triangulo escalador mas rampa.",
+      "precio": "$1500",
+      "marca": "Linea: Pickler/Montessori",
+      "desc": "Medidas: 82cm de alto x 66cm de ancho (Triangulo).160 cm de largo x 37 de ancho (Rampa).",
+      "fotos": [
+        "assets/Images/Productos/productos/triangulo/1.jpg",
+        "assets/Images/Productos/productos/triangulo/2.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Juegos artesanales: Tabla curva.",
+      "precio": "$1500",
+      "marca": "Linea: Pickler/Montessori",
+      "desc": "Medidas: 110cm de largo x 37cm de ancho.",
+      "fotos": ["assets/Images/Productos/productos/tabla/1.jpg"]
+    },
+    {
+      "id": "3",
+      "nombre": "Manta de movimiento.",
+      "precio": "$1500",
+      "marca": "Linea: Pickler/Montessori",
+      "desc": "Caracteristicas: Impermeable, se transforma en bolso, se enrolla en sí misma. Diferentes estampados.",
+      "fotos": ["assets/Images/Productos/productos/manta/1.jpg"]
+    },
+    {
+      "id": "4",
+      "nombre": "Zapatos",
+      "precio": "$1500",
+      "marca": "Descalzos Calzado",
+      "desc": "Están diseñados en base a la anatomía del pie del bebe. Respetando el libre movimiento con un ancho estándar.",
+      "fotos": [
+        "assets/Images/Productos/productos/Zapatos/1.jpg",
+        "assets/Images/Productos/productos/Zapatos/2.JPG",
+        "assets/Images/Productos/productos/Zapatos/3.JPG",
+        "assets/Images/Productos/productos/Zapatos/4.jpg"
+      ]
+    }
   ]
 }

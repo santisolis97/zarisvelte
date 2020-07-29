@@ -9,12 +9,13 @@
   export let desc;
   export let uso;
   export let fotos;
-  let todo = true;
+  let todo = "1";
 </script>
 
 <style>
   .card {
     width: 300px;
+    border-radius: 20px;
   }
   span {
     margin: 2px !important;
@@ -36,7 +37,7 @@
 </style>
 
 <div>
-  <div class="card rounded">
+  <div class="card">
     <Carousel {fotos} {id} {todo} />
     <div class="container badgecontainer">
       <div class="row d-flex pt-1">

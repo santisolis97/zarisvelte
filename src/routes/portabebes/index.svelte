@@ -1,19 +1,18 @@
 <script context="module">
   export async function preload() {
-    let productos = {};
+    let portabebes = {};
     const response = require("../../productos.json").portabebes;
-    productos = await response;
-    console.log(productos);
-    return { productos };
+    portabebes = await response;
+    console.log(portabebes);
+    return { portabebes };
   }
 </script>
 
 <script>
   import PortabebeCard from "../../components/portabebeCard.svelte";
-  import { onMount } from "svelte";
   import { identity } from "svelte/internal";
-  // let productos = require("../../productos.json").portabebes;
-  export let productos;
+  // let portabebes = require("../../portabebes.json").portabebes;
+  export let portabebes;
 </script>
 
 <style>
@@ -37,10 +36,10 @@
 <div class="container ">
   <ul>
     <div class="row">
-      {#each productos as producto (producto.id)}
+      {#each portabebes as portabebe (portabebe.id)}
         <li class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
 
-          <PortabebeCard {...producto} />
+          <PortabebeCard {...portabebe} />
         </li>
       {/each}
     </div>
