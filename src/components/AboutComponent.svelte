@@ -4,6 +4,11 @@
 </script>
 
 <style>
+  a {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+  }
   .bounce {
     animation: bounce 2s infinite;
   }
@@ -222,8 +227,18 @@
     </div>
     <div class="row visita">
       <h5>Pactamos tu visita con previo aviso</h5>
+
     </div>
+    <button type="button" class="btn btn-danger">
+      <a
+        target="_blank"
+        href="https://api.whatsapp.com/send?phone=5493624260839&text=Me%20interesa%20pactar%20una%20cita">
+        Pactar visita
+      </a>
+    </button>
+
     <div class="row">
+      <br />
       <iframe
         title="mapa"
         allowFullScreen=""
