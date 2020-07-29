@@ -4,6 +4,9 @@
 </script>
 
 <style>
+  .btn-danger {
+    margin-bottom: 10px;
+  }
   a {
     text-decoration: inherit;
     color: inherit;
@@ -60,8 +63,9 @@
       opacity: 0.6;
     }
 
-    .title {
+    .title h1 {
       padding-top: 29vh;
+      font-size: 5.5rem;
     }
     .lead {
       font-size: 1.7vw;
@@ -86,7 +90,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       color: white;
-      height: auto;
+      height: 180vw;
       margin: 0 !important;
       overflow: hidden;
       padding-top: 15px !important;
@@ -94,13 +98,14 @@
       border-radius: 0 !important;
     }
 
-    .title {
-      padding-top: 10vw;
+    .title h1 {
+      padding-top: 0;
+      font-size: 70px !important;
     }
     .lead {
-      font-size: 1.7vw;
+      font-size: 18px;
       padding-bottom: 20px;
-      padding-top: 1vh;
+      /* padding-top: ; */
       margin-bottom: 25px;
     }
 
@@ -151,14 +156,14 @@
     <div class="banner">
       <div class="row">
         <div class="col-12 col-md-6 title pt-xs-10">
-          <h1 class="display-2 text-center text-md-left">
+          <h1 class=" text-center">
             Nuestro
             <br />
             Inicio
           </h1>
         </div>
         <div class="col-12 col-md-6">
-          <p class="lead align-text-middle desc">
+          <p class="lead text-center desc">
             Nace de dos amigas con ganas de acompañar al bebé y su familia
             durante el nacimiento y crecimiento para
             <b>gestar</b>
@@ -238,7 +243,6 @@
     </button>
 
     <div class="row">
-      <br />
       <iframe
         title="mapa"
         allowFullScreen=""

@@ -1,6 +1,5 @@
 <script>
   import Carousel from "./Carousel.svelte";
-
   export let id;
   export let nombre;
   export let precio;

@@ -1,6 +1,6 @@
 <script>
-  import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
+  import Navbar from "../components/Navbar.svelte";
   // export let productos;
   export let segment;
 </script>
@@ -25,7 +25,7 @@
 <svelte:head>
   <title>Zarigueya | Gestando Conciencia</title>
 </svelte:head>
-<Nav {segment} />
+<Navbar id="Navbar" {segment} />
 
 <main>
   <slot />
