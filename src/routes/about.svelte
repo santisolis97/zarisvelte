@@ -6,6 +6,6 @@
 
 </style>
 
-<div class="containerfluid">
+<div class="containerfluid" id="about">
   <AboutComponent />
 </div>

@@ -4,6 +4,14 @@
 </script>
 
 <style>
+  .navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+    padding-top: 10px;
+  }
+  .navbar-light:focus:active .navbar-toggler:focus:active {
+    border-color: rgba(0, 0, 0, 0);
+    padding-top: 10px;
+  }
   nav {
     background: linear-gradient(
       90deg,
@@ -98,7 +106,7 @@
           rel="prefetch"
           aria-current={segment === 'about' ? 'page' : undefined}
           class="nav-link"
-          href="/about#Navbar">
+          href="/about">
           Quienes Somos?
         </a>
       </li>
@@ -110,7 +118,7 @@
           rel="prefetch"
           aria-current={segment === 'portabebes' ? 'page' : undefined}
           class="nav-link"
-          href="portabebes">
+          href="/portabebes#">
           Portabebés
         </a>
       </li>
@@ -122,7 +130,7 @@
           rel="prefetch"
           aria-current={segment === 'productos' ? 'page' : undefined}
           class="nav-link"
-          href="productos">
+          href="/productos">
           Productos Respetuosos
         </a>
       </li>
