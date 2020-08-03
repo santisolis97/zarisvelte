@@ -1,5 +1,5 @@
 <script>
-  import Portada from "../components/Portada.svelte";
+    import Portada from '../components/Portada.svelte';
 </script>
 
 <Portada />

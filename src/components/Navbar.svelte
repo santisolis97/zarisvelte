@@ -122,19 +122,6 @@
           Portabebés
         </a>
       </li>
-      <li
-        data-toggle="collapse"
-        data-target=".navbar-collapse.show"
-        class="nav-item">
-        <a
-          rel="prefetch"
-          aria-current={segment === 'productos' ? 'page' : undefined}
-          class="nav-link"
-          href="/productos">
-          Productos Respetuosos
-        </a>
-      </li>
-
     </ul>
   </div>
 </nav>
