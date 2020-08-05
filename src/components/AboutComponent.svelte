@@ -100,7 +100,7 @@
 
     .title h1 {
       padding-top: 0;
-      font-size: 70px !important;
+      font-size: 60px !important;
     }
     .lead {
       font-size: 18px;
@@ -157,26 +157,18 @@
       <div class="row">
         <div class="col-12 col-md-6 title pt-xs-10">
           <h1 class=" text-center">
-            Nuestro
+            ¿Qué es
             <br />
-            Inicio
+            Zarigüeya?
           </h1>
         </div>
         <div class="col-12 col-md-6">
           <p class="lead text-center desc">
-            Nace de dos amigas con ganas de acompañar al bebé y su familia
-            durante el nacimiento y crecimiento para
-            <b>gestar</b>
-            juntos consciencia sobre
-            <b>crianza</b>
-            respetuosa.
-            <br />
-            Sentimos y elegimos hacerlo brindando asesoramiento sobre
-            <b>porteo</b>
-            ergonómico (tanto particulares como grupales) y a través de la venta
-            de
-            <b>portabebes y articulos</b>
-            respetuosos para los niños.
+            Un espacio destinado a las familias donde podrán asesorarse en
+            porteo ergonomico, conocer diferentes modelos de portabebés y
+            adquirir el que se adapte a sus necesidades. Promueve el porteo y la
+            crianza respetuosa a traves de asesoramientos grupales, rondas,
+            talleres y clases de bailes porteando.
           </p>
         </div>
 

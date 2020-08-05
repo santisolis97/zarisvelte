@@ -2,12 +2,12 @@
   "bundler": "webpack",
   "shimport": null,
   "assets": {
-    "about": "a0c57825536f0e843eb2/about.about.js",
-    "index": "a0c57825536f0e843eb2/index.index.js",
-    "main": "a0c57825536f0e843eb2/main.js",
-    "portabebes": "a0c57825536f0e843eb2/portabebes.portabebes.js",
-    "portabebes_$id": "a0c57825536f0e843eb2/portabebes_$id.portabebes_$id.js",
-    "portabebes~portabebes_$id": "a0c57825536f0e843eb2/portabebes~portabebes_$id.portabebes~portabebes_$id.js"
+    "about": "7946f58c3d292650bcd2/about.about.js",
+    "index": "7946f58c3d292650bcd2/index.index.js",
+    "main": "7946f58c3d292650bcd2/main.js",
+    "portabebes": "7946f58c3d292650bcd2/portabebes.portabebes.js",
+    "portabebes_$id": "7946f58c3d292650bcd2/portabebes_$id.portabebes_$id.js",
+    "portabebes~portabebes_$id": "7946f58c3d292650bcd2/portabebes~portabebes_$id.portabebes~portabebes_$id.js"
   },
   "css": {
     "chunks": {
