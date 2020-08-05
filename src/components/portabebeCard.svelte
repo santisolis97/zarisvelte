@@ -2,7 +2,6 @@
   import Carousel from "./Carousel.svelte";
   export let id;
   export let nombre;
-  export let precio;
   export let marca;
   export let subt;
   export let desc;
