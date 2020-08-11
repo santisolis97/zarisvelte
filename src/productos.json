@@ -15,6 +15,14 @@
         "assets/Images/portabebes/fularse/4.jpg",
         "assets/Images/portabebes/fularse/5.jpg",
         "assets/Images/portabebes/fularse/6.jpg"
+      ],
+      "fulldesc": [
+        "Diseño: Tela de 4,80 metros de largo por 60 cm de ancho.",
+        "Tela: Jersey de algodón con rebote hacia lo ancho de la tela (semi elasticidad).",
+        "Permite diferentes nudos (formas de colocar la tela) y posiciones (al frente, a la cadera y a la espalda).",
+        "Sin talle, pueden usarlo diferentes porteadores.",
+        "Fácil de colocar.",
+        "🔔Es muy importante antes de elegir un portabebé tener el asesoramiento acerca de sus características para asegurar que será el portabebé adecuado para tu familia."
       ]
     },
     {
@@ -30,6 +38,14 @@
         "assets/Images/portabebes/fularpa/2.jpg",
         "assets/Images/portabebes/fularpa/3.jpg",
         "assets/Images/portabebes/fularpa/4.jpg"
+      ],
+      "fulldesc": [
+        "Diseño: dos bandas de tela unidas en la espalda que facilita la colocación al tener una confección prearmada. (evita aprender el nudo de fular).",
+        "Diferentes telas: semi elásticas o elásticas.",
+        "Permite una solo posición (al frente).",
+        "Con talle, según el cuerpo de porteador/a.",
+        "Muy fácil de colocar.",
+        "🔔Es muy importante antes de elegir un portabebé tener el asesoramiento acerca de sus características para asegurar que será el portabebé adecuado para tu familia."
       ]
     },
     {
@@ -45,6 +61,14 @@
         "assets/Images/portabebes/fularel/2.jpg",
         "assets/Images/portabebes/fularel/3.jpg",
         "assets/Images/portabebes/fularel/4.jpg"
+      ],
+      "fulldesc": [
+        "Diseño: Tela de 4,80 metros de largo por 55 cm de ancho.",
+        "Tela: Algodón con Lycra o elastano con rebote hacia lo ancho y largo de la tela.",
+        "Permite diferentes nudos (formas de colocar la tela) y posiciones (al frente, a la cadera y a la espalda).",
+        "Sin talle, pueden usarlo diferentes porteadores.",
+        "Muy fácil de colocar",
+        "🔔Es muy importante antes de elegir un portabebé tener el asesoramiento acerca de sus características para asegurar que será el portabebé adecuado para tu familia."
       ]
     },
     {
@@ -58,6 +82,16 @@
       "fotos": [
         "assets/Images/portabebes/bandolera/1.jpg",
         "assets/Images/portabebes/bandolera/2.jpg"
+      ],
+      "fulldesc": [
+        "Diseño: tela de 2,20 metros de largo por 70 cm de ancho con anillas (certificadas para porteo) cosidas en uno de sus extremos.",
+        "Tela: Brin,  algodón 100%, ideal para lugares con altas temperaturas.",
+        "Asimétrico: el peso se distribuye desde un hombro hacia el lado contrario en la cadera y en toda espalda.",
+        "Permite diferentes posiciones: al frente, a la cadera y a la espalda.",
+        "Sin talle, pueden usarla diferentes porteadores.",
+        "Con bordados únicos y costura decorativa.",
+        "Fácil de colocar",
+        "🔔Es muy importante antes de elegir un portabebé tener el asesoramiento acerca de sus características para asegurar que será el portabebé adecuado para tu familia."
       ]
     },
     {
@@ -76,6 +110,15 @@
         "assets/Images/portabebes/mochilaergonomica/5.jpg",
         "assets/Images/portabebes/mochilaergonomica/6.jpg",
         "assets/Images/portabebes/mochilaergonomica/7.png"
+      ],
+      "fulldesc": [
+        "Diseño:  panel rectangular con tirantes y cinturón acolchonados con broches y correas para ajustar al cuerpo de porteador/a.  Con capucha.",
+        "Simétrico: reparte el peso en hombros, cintura y espalda.",
+        "Diferentes: colores y estampados.",
+        "Permite dos posiciones: al frente y a la espalda.",
+        "Con talle, según etapa que transita bebé.",
+        "Muy fácil de colocar",
+        "🔔Es muy importante antes de elegir un portabebé tener el asesoramiento acerca de sus características para asegurar que será el portabebé adecuado para tu familia."
       ]
     },
     {
@@ -92,13 +135,23 @@
         "assets/Images/portabebes/meitai/3.jpg",
         "assets/Images/portabebes/meitai/4.jpg",
         "assets/Images/portabebes/meitai/5.jpg"
+      ],
+      "fulldesc": [
+        "Diseño: Panel rectangular con 4 tiras largas: 2 inferiores (a modo cinturón) y otras 2 superiores. Con capucha para sostener o cubrir cabeza de bebé.",
+        "Tela: Brin, de algodón 100%",
+        "Simétrico: reparte el peso en hombros, cintura y espalda.",
+        "Con bordados únicos y costura decorativa.",
+        "Permite diferentes posiciones: al frente, a la cadera y la espalda.",
+        "Sin talle, pueden usarlo diferentes porteadores",
+        "Fácil de colocar",
+        "🔔Es muy importante antes de elegir un portabebé tener el asesoramiento acerca de sus características para asegurar que será el portabebé adecuado para tu familia."
       ]
     },
     {
       "id": "6",
-      "nombre": "Onbhuimo tradicional o SAD",
+      "nombre": "Onbhuimo SAD",
       "precio": "$1500",
-      "marca": "Un Beso de Distancia, Mujer Habitada y MamaMeme",
+      "marca": "Puro amor",
       "subt": "",
       "desc": "Diferentes diseños, colores y estampados.",
       "uso": " Uso: a partir de bebé se sienta",
@@ -107,15 +160,45 @@
         "assets/Images/portabebes/OSAD/2.jpg",
         "assets/Images/portabebes/OSAD/3.jpg",
         "assets/Images/portabebes/OSAD/4.jpg",
-        "assets/Images/portabebes/OSAD/5.jpg",
-        "assets/Images/portabebes/OSAD/6.jpg",
-        "assets/Images/portabebes/OSAD/7.jpg",
-        "assets/Images/portabebes/OSAD/8.jpg",
-        "assets/Images/portabebes/OSAD/9.jpg"
+        "assets/Images/portabebes/OSAD/5.jpg"
+      ],
+      "fulldesc": [
+        "Diseño:  panel rectangular con tirantes acolchonados y capucha, con broches y correas para ajustar al cuerpo de porteador/a. Con capucha.",
+        "Simétrico: reparte el peso en hombros  y espalda.",
+        "Diferentes: colores y estampados.",
+        "Permite dos posiciones: al frente y a la espalda.",
+        "Con talle, según etapa que transita bebé.",
+        "Muy fácil de colocar",
+        "🔔Es muy importante antes de elegir un portabebé tener el asesoramiento acerca de sus características para asegurar que será el portabebé adecuado para tu familia."
       ]
     },
     {
       "id": "7",
+      "nombre": "Onbhuimo tradicional",
+      "precio": "$1500",
+      "marca": "Un beso de distancia",
+      "subt": "",
+      "desc": "Diferentes diseños, colores y estampados.",
+      "uso": " Uso: a partir de bebé se sienta",
+      "fotos": [
+        "assets/Images/portabebes/OTRAD/1.jpg",
+        "assets/Images/portabebes/OTRAD/2.jpg",
+        "assets/Images/portabebes/OTRAD/3.jpg",
+        "assets/Images/portabebes/OTRAD/4.jpg"
+      ],
+      "fulldesc": [
+        "Diseño:  es una panel rectangular con dos tiras en la parte superior y unas trabas (de tela) que están por la parte inferior. Con capucha.",
+        "Tela: Brin, algodón 100%.",
+        "Simétrico: reparte el peso en hombros y espalda.",
+        "Diferentes: colores y estampados.",
+        "Permite dos posiciones: al frente y la espalda.",
+        "Sin talle, se ajusta al cuerpo de bebé y al de porteador/a",
+        "Fácil de colocar",
+        "🔔Es muy importante antes de elegir un portabebé tener el asesoramiento acerca de sus características para asegurar que será el portabebé adecuado para tu familia."
+      ]
+    },
+    {
+      "id": "8",
       "nombre": "Mochila Ergonómica Extensible",
       "precio": "$1500",
       "marca": "Mujer Habitada y Puroamor",
@@ -130,10 +213,19 @@
         "assets/Images/portabebes/mochilaextensible/5.jpg",
         "assets/Images/portabebes/mochilaextensible/6.jpg",
         "assets/Images/portabebes/mochilaextensible/7.jpg"
+      ],
+      "fulldesc": [
+        "Diseño:  panel rectangular con tirantes y cinturón acolchonados con broches y correas para ajustar al cuerpo de porteador/a. Puente y panel extensibles que se adaptan al cuerpo de bebé. Con capucha.",
+        "Simétrico: reparte el peso en hombros, cintura y espalda.",
+        "Diferentes: colores y estampados.",
+        "Permite dos posiciones o tres según la marca: al frente, a la cadera y a la espalda.",
+        "Más tiempo de uso por su confección que acompaña el crecimiento de bebé.",
+        "Muy fácil de colocar",
+        "🔔Es muy importante antes de elegir un portabebé tener el asesoramiento acerca de sus características para asegurar que será el portabebé adecuado para tu familia."
       ]
     },
     {
-      "id": "8",
+      "id": "9",
       "nombre": "Pouch",
       "precio": "$1500",
       "marca": "Mujer Habitada",
@@ -145,60 +237,15 @@
         "assets/Images/portabebes/pouch/2.jpg",
         "assets/Images/portabebes/pouch/3.jpg",
         "assets/Images/portabebes/pouch/4.png"
-      ]
-    }
-  ],
-  "productos": [
-    {
-      "id": "0",
-      "nombre": "Juegos artesanales: Cubos",
-      "precio": "$1500",
-      "marca": "Linea: Pickler/Montessori",
-      "desc": "Medidas: 40cm x 40cm",
-      "fotos": [
-        "assets/Images/productos/cubo/1.jpg",
-        "assets/Images/productos/cubo/2.jpg",
-        "assets/Images/productos/cubo/3.jpg"
-      ]
-    },
-    {
-      "id": "1",
-      "nombre": "Juegos artesanales: Triangulo escalador mas rampa.",
-      "precio": "$1500",
-      "marca": "Linea: Pickler/Montessori",
-      "desc": "Medidas: 82cm de alto x 66cm de ancho (Triangulo).160 cm de largo x 37 de ancho (Rampa).",
-      "fotos": [
-        "assets/Images/productos/triangulo/1.jpg",
-        "assets/Images/productos/triangulo/2.jpg"
-      ]
-    },
-    {
-      "id": "2",
-      "nombre": "Juegos artesanales: Tabla curva.",
-      "precio": "$1500",
-      "marca": "Linea: Pickler/Montessori",
-      "desc": "Medidas: 110cm de largo x 37cm de ancho.",
-      "fotos": ["assets/Images/productos/tabla/1.jpg"]
-    },
-    {
-      "id": "3",
-      "nombre": "Manta de movimiento.",
-      "precio": "$1500",
-      "marca": "Linea: Pickler/Montessori",
-      "desc": "Caracteristicas: Impermeable, se transforma en bolso, se enrolla en sí misma. Diferentes estampados.",
-      "fotos": ["assets/Images/productos/manta/1.jpg"]
-    },
-    {
-      "id": "4",
-      "nombre": "Zapatos",
-      "precio": "$1500",
-      "marca": "Marca: Descalzos Calzado",
-      "desc": "Están diseñados en base a la anatomía del pie del bebe. Respetando el libre movimiento con un ancho estándar.",
-      "fotos": [
-        "assets/Images/productos/Zapatos/1.jpg",
-        "assets/Images/productos/Zapatos/2.JPG",
-        "assets/Images/productos/Zapatos/3.JPG",
-        "assets/Images/productos/Zapatos/4.jpg"
+      ],
+      "fulldesc": [
+        "Diseño: tela  cosida en forma tubular. posee una costura curva donde se sienta bebé. ",
+        "Tela: Lienzo premuim prelavado, 100% algodón.",
+        "Asimétrico: el peso se distribuye desde un hombro hacia el lado contrario en la cadera y en toda espalda.",
+        "Permite diferentes posiciones: al frente, a la cadera y a la espalda.",
+        "Con talle, según el cuerpo de porteador/a.",
+        "Fácil y práctico de colocar.",
+        "🔔Es muy importante antes de elegir un portabebé tener el asesoramiento acerca de sus características para asegurar que será el portabebé adecuado para tu familia."
       ]
     }
   ]
