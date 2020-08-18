@@ -56,7 +56,7 @@
 </div>
 <div class="container">
   <div class="item">
-    <h1 class="nombreprod info">{producto.nombre}</h1>
+    <h1 class="nombreprod d-lg-none d-block info">{producto.nombre}</h1>
     <div class="row">
       <div class="col-12 col-lg-7 column">
         <div class="carousel">
@@ -64,7 +64,7 @@
         </div>
       </div>
       <div class="col-12 offset-lg-1 offset-xl-0 col-lg-4 col-xl-5 column info">
-
+        <h1 class="nombreprod d-lg-block d-none">{producto.nombre}</h1>
         <span class="badge badge-danger m-1">Marca: {producto.marca}</span>
         {#each producto.fulldesc as fulldesc, i}
           <p>{fulldesc}</p>
@@ -73,8 +73,8 @@
           <a
             target="_blank"
             href="https://api.whatsapp.com/send?phone=5493624260839&text=Me%20interesa%20{producto.nombre}">
-            <i class="fas fa-shopping-cart" />
-            Comprar
+            <i class="fab fa-whatsapp" />
+            Consultar
           </a>
         </button>
       </div>
