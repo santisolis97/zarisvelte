@@ -15,6 +15,10 @@
 </script>
 
 <style>
+  .nombreprod {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
   /* @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"); */
   .carousel {
     border: 4px solid rgba(190, 86, 89, 0.5);
@@ -52,7 +56,7 @@
 </div>
 <div class="container">
   <div class="item">
-
+    <h1 class="nombreprod info">{producto.nombre}</h1>
     <div class="row">
       <div class="col-12 col-lg-7 column">
         <div class="carousel">
@@ -60,8 +64,8 @@
         </div>
       </div>
       <div class="col-12 offset-lg-1 offset-xl-0 col-lg-4 col-xl-5 column info">
-        <h1>{producto.nombre}</h1>
-        <h3>Marca: {producto.marca}</h3>
+
+        <span class="badge badge-danger m-1">Marca: {producto.marca}</span>
         {#each producto.fulldesc as fulldesc, i}
           <p>{fulldesc}</p>
         {/each}

@@ -37,7 +37,7 @@
   }
   @media (min-width: 768px) {
     .jumbotron {
-      background-image: url("assets/Images/about/espacio.jpg");
+      background-image: url("assets/Images/about/esp.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       color: white;
@@ -86,7 +86,7 @@
 
   @media (max-width: 768px) {
     .jumbotron {
-      background-image: url("assets/Images/about/espacio.jpg");
+      background-image: url("assets/Images/about/esp.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       color: white;
@@ -165,7 +165,7 @@
         <div class="col-12 col-md-6">
           <p class="lead text-center desc">
             Un espacio destinado a las familias donde podrán asesorarse en
-            porteo ergonomico, conocer diferentes modelos de portabebés y
+            porteo ergonómico, conocer diferentes modelos de portabebés y
             adquirir el que se adapte a sus necesidades. Promueve el porteo y la
             crianza respetuosa a traves de asesoramientos grupales, rondas,
             talleres y clases de bailes porteando.
@@ -180,21 +180,18 @@
     </div>
   </div>
   <div class="container">
-    <div class="row text-center">
-      <div class="col">
-        <h1 class="nosotras-title">Nosotras</h1>
-      </div>
-    </div>
+
     <div class="row nosotras text-center align-self-center">
       <div class="col-12 col-md-12">
+        <h3 class="nosotras-title">Estefi</h3>
         <img alt="..." class="align-self-center mr-3 aleimg" src={estefi} />
         <div class="media row">
           <div class="col-12">
             <div class="media-body">
-              <h5 class="mt-0 mb-1">Estefi</h5>
+
               <p>
-                Organizadora de eventos/ Doula / Consultora en porteo de Crianza
-                en Brazos.
+                Organizadora de eventos / Doula / Consultora en porteo de
+                Crianza en Brazos.
               </p>
             </div>
           </div>

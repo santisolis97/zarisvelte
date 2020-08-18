@@ -107,7 +107,7 @@
           aria-current={segment === 'about' ? 'page' : undefined}
           class="nav-link"
           href="/about">
-          Quienes Somos?
+          ¿Qué es Zarigüeya?
         </a>
       </li>
       <li

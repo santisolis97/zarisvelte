@@ -11,6 +11,10 @@
 </script>
 
 <style>
+  .card-title {
+    font-weight: 900;
+  }
+
   .font {
     font-family: "Comic Neue";
   }
@@ -76,7 +80,7 @@
     <div class="card-body">
 
       <div class="badges">
-        <span class="badge badge-danger m-1">Marca:{marca}</span>
+        <span class="badge badge-danger m-1">Marca: {marca}</span>
       </div>
       <a rel="prefetch" href="/portabebes/{id}">
 
